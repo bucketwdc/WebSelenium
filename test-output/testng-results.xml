@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12468" started-at="2018-08-22T07:39:43Z" finished-at="2018-08-22T07:39:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12468" started-at="2018-08-22T07:39:43Z" finished-at="2018-08-22T07:39:55Z">
+      <class name="com.test.frame.WebSelenium.IndexPage_NormalTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.test.frame.WebSelenium.IndexPage_NormalTest@7e9a5fbe]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="19" started-at="2018-08-22T15:39:43Z" finished-at="2018-08-22T15:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.test.frame.WebSelenium.IndexPage_NormalTest@7e9a5fbe]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1137" started-at="2018-08-22T15:39:43Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-08-22T15:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.test.frame.WebSelenium.IndexPage_NormalTest@7e9a5fbe]" name="init" is-config="true" duration-ms="78" started-at="2018-08-22T15:39:44Z" finished-at="2018-08-22T15:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.frame.WebSelenium.IndexPage_NormalTest@7e9a5fbe]" name="beforeClass" is-config="true" duration-ms="9676" started-at="2018-08-22T15:39:44Z" finished-at="2018-08-22T15:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.test.frame.WebSelenium.IndexPage_NormalTest@7e9a5fbe]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2018-08-22T15:39:54Z" finished-at="2018-08-22T15:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.frame.WebSelenium.IndexPage_NormalTest.indexPage_Normal()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="indexPage_Normal()[pri:0, instance:com.test.frame.WebSelenium.IndexPage_NormalTest@7e9a5fbe]" name="indexPage_Normal" duration-ms="1532" started-at="2018-08-22T15:39:54Z" finished-at="2018-08-22T15:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indexPage_Normal -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.test.frame.WebSelenium.IndexPage_NormalTest@7e9a5fbe]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-22T15:39:55Z" finished-at="2018-08-22T15:39:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.frame.WebSelenium.IndexPage_NormalTest.indexPage_Normal()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.test.frame.WebSelenium.IndexPage_NormalTest@7e9a5fbe]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-08-22T15:39:55Z" finished-at="2018-08-22T15:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.test.frame.WebSelenium.IndexPage_NormalTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suit" verbose="1">
+	<test name="Test-2">
+		<classes>
+			<class name="com.test.frame.WebSelenium.LoginPage_NormalTest"></class>
+			<class name="com.test.frame.WebSelenium.IndexPage_NormalTest"></class>
+			<class name="com.test.frame.WebSelenium.PublishPage_NormalTest"></class>
+		</classes>
+	</test>
+	
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="org.testng.reporters.FailedReporter" />
+	</listeners>
+	
+<!-- <listeners>
+        <listener class-name="com.pack.test.RetryListener"/>
+  	</listeners>
+  	<listeners>
+       <listener class-name="com.pack.test.TestListener"/>
+  	</listeners> -->	
+  	<listeners> <!-- 如果用例断言失败进行截图 -->
+       <listener class-name="com.test.frame.WebSelenium.listener.CaseListener" />
+    </listeners>
+	
+
+</suite>
